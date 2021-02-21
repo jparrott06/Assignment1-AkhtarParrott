@@ -72,7 +72,7 @@ a:hover
     }
     #chirp  
     {
-        height:auto;
+        /*height:auto;*/
         width: 70px;
         left: 0;
         margin: 100px 0;
