@@ -14,6 +14,9 @@
 body
 {
     overflow: hidden;
+    background-image: linear-gradient(rgba(0,0,0,0,0.8),rgba(0,0,0,0,0.8), url(./images/chirpyBackground.jpg));
+    background-position: center;
+    background-size: cover;
 }
 .mainform
 {
@@ -134,4 +137,16 @@ label {
 
 .title {
     color:white
+}
+
+#Form2 {
+    left: 450px;
+}
+
+#Form3 {
+    left: 450px;
+}
+
+#Form4 {
+    left: 450px;
 }
