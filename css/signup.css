@@ -1,7 +1,8 @@
-*
-{
-    background-color: black;
+* {
+    /* background-color: black; */
+    background-image: linear-gradient(rgba(0,0,0,0,0.8),rgba(0,0,0,0,0.8), url(./images/chirpyBackground.jpg));
 }
+
 @media(max-width:860px)
 {
     .mainform
@@ -13,10 +14,10 @@
 }
 body
 {
-    overflow: hidden;
-    background-image: linear-gradient(rgba(0,0,0,0,0.8),rgba(0,0,0,0,0.8), url(./images/chirpyBackground.jpg));
+    /* overflow: hidden; */
     background-position: center;
     background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0,0.8),rgba(0,0,0,0,0.8), url(./images/chirpyBackground.jpg));
 }
 .mainform
 {
@@ -27,11 +28,21 @@ body
     margin-top: 50px;
 
 }
+
 .icon
 {
     color:#D9D9D9;
     font-size: 42px;
 }
+
+/* .row {
+    background-color: black;
+} */
+
+#test {
+    background-color: black;
+}
+
 .form_horizontal .title
 {
     color:#D9D9D9;
@@ -149,4 +160,9 @@ label {
 
 #Form4 {
     left: 450px;
+}
+
+#txtareaBio {
+    background-color: black;
+    color: white;
 }
