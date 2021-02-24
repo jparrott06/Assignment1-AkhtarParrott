@@ -36,17 +36,152 @@ It doesn’t have to be collapsible but needs to look decent.'
 <html lang="en">
 
 <head>
+  <link href="favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="css/home.css">
+  <script src="js/home.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="//code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous"></script>
-  <script>
+  <!-- <script>
     $(function () {
       $('#header').load('header.html');
     });
-  </script>
+  </script> -->
 </head>
 
-<body>
+<body style="background-color: black;">
   <div id="header"></div>
+
+  <div class="container">
+
+    <div>Put navbar here</div>
+
+    <div class="feed">
+      <div class="feed__header">
+        <h2>Home</h2>
+      </div>
+
+      <div class="chirpBox">
+        <form>
+          <div class="chirpBox__input">
+            <img src="./css/images/img_avatar.png" alt="Avatar" class="avatar">
+            <input type="text" placeholder="What's happening?" required maxlength="250">
+          </div>
+          <div class="myicons">
+            <a href="#"><i class="material-icons" id="file">add_photo_alternate</i></a>
+            <a href="#"><i class="material-icons" id="gif">gif</i></a>
+            <a href="#"><i class="material-icons" id="emoji">emoji_emotions</i></a>
+            <a href="#"><i class="material-icons" id="poll">poll</i></a>
+            <a href="#"><i class="material-icons id =" schedule">calendar_today</i></a>
+          </div>
+          <button class="chirpBox__chirpButton" type="submit">Chirp!</button>
+        </form>
+      </div>
+
+      <div class="post">
+        <div class="post__avatar">
+          <img src="./css/images/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>Sarah Johnsen <span class="post__headerSpecial">@sjohnsen123</span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Wow. I really love Chirping on Chirpy! :)</p>
+            </div>
+
+
+          </div>
+          <img src="./css/images/mockImage.gif" alt="gif">
+          <div class="post__footer">
+            <i class="fa fa-comment"></i>
+            <i class="fa fa-retweet"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="post">
+        <div class="post__avatar">
+          <img src="./css/images/img_avatar3.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>Joey John <span class="post__headerSpecial">@joeyj624</span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>I can't wait to cheep on chirpy</p>
+            </div>
+
+
+          </div>
+          <img src="./css/images/mockImage.gif" alt="gif">
+          <div class="post__footer">
+            <i class="fa fa-comment"></i>
+            <i class="fa fa-retweet"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="post">
+        <div class="post__avatar">
+          <img src="./css/images/img_avatar5.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>Jessica Smith <span class="post__headerSpecial">@jsmith212</span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>OMG I just like totally wanna CHIRP it up!@!</p>
+            </div>
+
+
+          </div>
+          <img src="./css/images/mockImage.gif" alt="gif">
+          <div class="post__footer">
+            <i class="fa fa-comment"></i>
+            <i class="fa fa-retweet"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-share"></i>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="righthandside">
+      <div class="search-box">
+        <i class="fa fa-search searchIcon" id='icon'></i>
+        <input class="search" type="text" name="" placeholder="Search Chirpy">
+        <a class="search-button" href="#"></a>
+      </div>
+      </form>
+      <br>
+      <div class="newsfeed">
+        <iframe height="700" width="350" class="responsive-iframe" src="https://rss.app/embed/v1/pbyFmgfaPdGTq04r"
+          frameBorder="0"></iframe>
+
+      </div>
+    </div>
+
 </body>
 
 </html>
