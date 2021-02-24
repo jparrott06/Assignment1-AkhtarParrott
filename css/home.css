@@ -1,18 +1,16 @@
-*
-{
+* {
     background-color: black;
 }
 
-@media(max-width:860px)
-{
-    .feed__header
-    {
-        width:280px; /*NEED TO FIX THIS */
-    }
+body {
+    background-color: black;
+    margin: 0%;    
 }
+
 .container {
     display:flex;
     height: 100vh;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 10px;
@@ -166,6 +164,7 @@
     padding: 10px;
     top:5%;
     left:80%;
+    margin-top:4px;
 }
 
 .search
@@ -197,8 +196,108 @@
 {
     width:300px;
     margin-top: 67px;
-    margin-left: 50px;;
+    margin-left: 40px;;
     position: relative;
     width: 90%;
+}
+
+/* Sidebar */
+
+.sidebarMaster {
+    border-right: 1px solid black;
+    flex: 0.3
+}
+
+.sidebar
+{
+    position: fixed;
+    width: 240px;
+    box-sizing: border-box;
+    background: black;
+    height: 100%;
+    margin-top: 16px;
+
+}
+.sidebar a{
+    display: block;
+    height: 65px;
+    color: white;
+    width: 100%;
+    line-height: 65px;
+    padding-left: 30px;
+    font-weight: bold;
+    border-right:2px solid rgb(73, 71, 71);
+
+    font-family: 'Open Sans',sans-serif;
     
+}
+#chirp
+{
+    width: 160px;
+    height: 30px;
+    margin-left: 0;
+    border-color: #1DA1F2;
+    background-color: #1DA1F2;
+    border-left: 5px solid transparent;
+    border-radius: 25px;
+    padding: 10px;
+   
+}
+
+a:hover
+{
+    border-left: 5px solid #1DA1F2;
+}
+
+.sidebar a i{
+    margin-right: 16px;
+}
+
+@media(max-width:860px)
+{
+    .sidebar{
+        height:auto;
+        width: 70px;
+        left: 0;
+        margin: 100px 0;
+    }
+    span 
+    {
+        position: absolute;
+        margin-left: 23px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .sidebar a i
+    {
+        margin-left: -10px;
+
+    }
+    #chirp  
+    {
+        height:auto;
+        width: 70px;
+        left: 0;
+        margin: 100px 0;
+        position: absolute;
+        margin-left: 23px;
+        opacity: 0;
+    }
+    a:hover{
+        width: 200px;
+        background:inherit;
+        background-color: #1DA1F2;
+    }
+    .sidebar a:hover span
+    {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* Widget */
+
+.widgets {
+    flex: 0.3;
+    border-left: 1px solid black;
 }
