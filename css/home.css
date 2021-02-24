@@ -19,7 +19,7 @@ body {
 /* Feed */
 
 .feed {
-    flex: 0.4;
+    flex: 0.1;
     border-right: 1px solid rgb(34, 32, 32);
     border-left:1px solid rgb(34, 32, 32);
     color: white;
@@ -30,7 +30,7 @@ body {
 
 .feed__header {
     position: sticky;
-    width: 490px;
+    width: 550px;
     top: 0;
     
     z-index: 100;
@@ -65,7 +65,7 @@ body {
 .chirpBox {
     padding-bottom: 10px;
     border-bottom: 8px solid rgb(34, 32, 32);
-    padding-right:m 10px;
+    padding-right: 10px;
 }
 
 .chirpBox > form {
@@ -197,7 +197,7 @@ body {
     width:300px;
     margin-top: 67px;
     margin-left: 40px;;
-    position: relative;
+    position: fixed;
     width: 90%;
 }
 
@@ -241,10 +241,11 @@ body {
     border-left: 5px solid transparent;
     border-radius: 25px;
     padding: 10px;
+    text-align: center;;
    
 }
 
-a:hover
+.sidebar a:hover
 {
     border-left: 5px solid #1DA1F2;
 }
@@ -283,7 +284,7 @@ a:hover
         margin-left: 23px;
         opacity: 0;
     }
-    a:hover{
+    .sidebar a:hover{
         width: 200px;
         background:inherit;
         background-color: #1DA1F2;
@@ -293,8 +294,16 @@ a:hover
         opacity: 1;
         visibility: visible;
     }
-}
+    
 
+}
+@media(max-width:650px)
+{
+    .newsfeed
+    {
+        display: none;
+    }
+}
 /* Widget */
 
 .widgets {
