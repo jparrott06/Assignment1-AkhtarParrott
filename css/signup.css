@@ -209,3 +209,15 @@ label {
     background-color: white;
     color: black;
 }
+
+.icon:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    color: #1B95E0;
+}
+
+.form-check > label:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    color: #1B95E0;
+}
