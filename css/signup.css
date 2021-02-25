@@ -181,7 +181,31 @@ label {
 
 }
 
+#ddSecurityQuestion:hover {
+    cursor: pointer;
+}
+
 #txtAnswer {
     font-size: 20px;
     font-weight: 10px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter:invert(1);
+}
+
+::-webkit-calendar-picker-indicator:hover {
+    cursor: pointer;
+}
+
+#signup:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+
+#reset:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
 }
