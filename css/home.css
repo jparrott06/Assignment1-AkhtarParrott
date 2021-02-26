@@ -85,6 +85,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     border: 2px solid rgb(47, 51, 54);
+    border-radius: 10px;
 }
 
 
@@ -106,7 +107,7 @@ body {
 
 .chirpBox__chirpButton:hover {
     transition: 0.3s;
-    background-color: white;
+    background-color: rgba(197, 219, 236, 0.932);
     color: black;
 }
 
