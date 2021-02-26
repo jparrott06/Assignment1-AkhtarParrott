@@ -1,7 +1,7 @@
 # Assignment1-AkhtarParrott
 Repo for Assignment#1 - WebAppDev2021
 
-- File Structure
+File Structure
     Assignment1-AkhtarParrott
     ├── css
     │   ├── images/.. [images used for webpages]
