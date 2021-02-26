@@ -14,6 +14,9 @@
 .newfeed
 {
     float:right;
+    margin-top:-20px;
+    position:sticky;
+
 }
 .search-contents
 {
