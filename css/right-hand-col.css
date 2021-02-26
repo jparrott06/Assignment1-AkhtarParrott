@@ -9,7 +9,7 @@
     background-color: rgb(49, 45, 45);
     float:right;
     position:sticky;
-    
+    outline: none;
 }
 .newsfeed
 {
