@@ -50,9 +50,9 @@
         <details>
         <summary>3. Right sidebar</summary>
 
-    - (Search box)
-    - (News)
-    - (Who to Follow)
+      - (Search box)
+      - (News)
+      - (Who to Follow)
         </details>
 
     </details>
