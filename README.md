@@ -38,17 +38,17 @@
 
     <details><summary>2. Feed</summary>
 
-  - (Home header)
-  - (ChirpBox)
-  - (Feed which contains mockdata of Chirpy posts)
+    - (Home header)
+    - (ChirpBox)
+    - (Feed which contains mockdata of Chirpy posts)
 
     </details>
 
     <details><summary>3. Right sidebar</summary>
 
-  - (Search box)
-  - (News)
-  - (Who to Follow)
+    - (Search box)
+    - (News)
+    - (Who to Follow)
     </details>
 
   </details>
