@@ -19,11 +19,13 @@
         └── table.html ['who to follow' component]
     ```
 - Description of main pages
-  <details><summary>home.html </summary>
+  <details>
+    <summary>home.html </summary>
 
-    This is the homepage the user will see once logged into the Chirpy webapp (our version of Twitter).
-    Its basic structure is as follows:
-      <details><summary>1. Left sidebar</summary>
+      This is the homepage the user will see once logged into the Chirpy webapp (our version of Twitter).
+      Its basic structure is as follows:
+  </details>
+  <details><summary>home.html: left-sidebar</summary>
 
   - (Home)
   - (#Explore)
@@ -34,45 +36,42 @@
   - (Settings)
   - (Chirp)
             
-      </details>
+  </details>
 
-      <details><summary>2. Feed</summary>
+  <details><summary>home.html: feed</summary>
 
     - (Home header)
     - (ChirpBox)
     - (Feed which contains mockdata of Chirpy posts)
 
-      </details>
-
-      <details><summary>3. Right sidebar</summary>
-
-      - (Search box)
-      - (News)
-      - (Who to Follow)
-      </details>
-
   </details>
 
+  <details><summary>home.html: right-sidebar</summary>
+
+    - (Search box)
+    - (News)
+    - (Who to Follow)
+  </details>
 
   <details><summary>signup.html</summary>
 
-    Signup Page for Chirpy - all requirements met as specified for Assignment#1.
-    We did not add the left-navbar for signup.html because that should only be accessed by a logged in user.
-    </details>
+      Signup Page for Chirpy - all requirements met as specified for Assignment#1.
+      We did not add the left-navbar for signup.html because that should only be accessed by a logged in user.
+  </details>
 
   <details><summary>signin.html</summary>
 
-    Signin Page for Chirpy - all requirements met as specified for Assignment#1.
-    We did not add the left-navbar for signin.html because that should only be accessed by a logged in user.
-    </details>
+      Signin Page for Chirpy - all requirements met as specified for Assignment#1.
+      We did not add the left-navbar for signin.html because that should only be accessed by a logged in user.
+  </details>
 
-  - Delegation of Responsibilities
-    - signup.html was created by Jacob along with styling
-    - signin.html was created by Ayesha along with styling
-    - left sidebar was created and styled by Ayesha
-    - feed was created and styled by Jacob
-    - right sidebar was created and styled by Ayesha
-    - Jacob and Ayesha also collaborated extensively on the home.html:
-      - Pair programming to make sure style and sizing was consistent
-      - Integrated our components together and in home.html and debugged
-      - Brainstorming and adding/removing features
+- Delegation of Responsibilities
+  - signup.html was created by Jacob along with styling
+  - signin.html was created by Ayesha along with styling
+  - left sidebar was created and styled by Ayesha
+  - feed was created and styled by Jacob
+  - right sidebar was created and styled by Ayesha
+  - Jacob and Ayesha also collaborated extensively on the home.html:
+    - Pair programming to make sure style and sizing was consistent
+    - Integrated our components together and in home.html and debugged
+    - Brainstorming and adding/removing features
