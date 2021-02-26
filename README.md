@@ -25,22 +25,22 @@
     Its basic structure is as follows:
         <details><summary>1. Left sidebar</summary>
 
-    - (Home)
-    - (#Explore)
-    - (Notifications)
-    - (Messages)
-    - (Bookmarks)
-    - (Profile)
-    - (Settings)
-    - (Chirp)
+  - (Home)
+  - (#Explore)
+  - (Notifications)
+  - (Messages)
+  - (Bookmarks)
+  - (Profile)
+  - (Settings)
+  - (Chirp)
             
         </details>
 
         <details><summary>2. Feed</summary>
 
-      - (Home header)
-      - (ChirpBox)
-      - (Feed which contains mockdata of Chirpy posts)
+  - (Home header)
+  - (ChirpBox)
+  - (Feed which contains mockdata of Chirpy posts)
 
         </details>
 
