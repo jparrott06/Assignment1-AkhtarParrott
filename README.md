@@ -25,7 +25,7 @@
     This is the homepage the user will see once logged into the Chirpy webapp (our version of Twitter).
     Its basic structure is as follows:
         <details>
-    <summary>1. Left sidebar</summary>
+            <summary>1. Left sidebar</summary>
 
     - (Home)
     - (#Explore)
