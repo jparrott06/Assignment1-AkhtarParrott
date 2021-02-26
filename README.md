@@ -27,14 +27,14 @@
         <details>
         <summary>1. Left sidebar</summary>
 
-      - (Home)
-      - (#Explore)
-      - (Notifications)
-      - (Messages)
-      - (Bookmarks)
-      - (Profile)
-      - (Settings)
-      - (Chirp)
+    - (Home)
+    - (#Explore)
+    - (Notifications)
+    - (Messages)
+    - (Bookmarks)
+    - (Profile)
+    - (Settings)
+    - (Chirp)
         </details>
 
     <details>
