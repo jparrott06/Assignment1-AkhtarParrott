@@ -68,13 +68,13 @@
         We did not add the left-navbar for signin.html because that should only be accessed by a logged in user.
     </details>
 
-- Delegation of Responsibilities
-  - signup.html was created by Jacob along with styling
-  - signin.html was created by Ayesha along with styling
-  - left sidebar was created and styled by Ayesha
-  - feed was created and styled by Jacob
-  - right sidebar was created and styled by Ayesha
-  - Jacob and Ayesha also collaborated extensively on the home.html:
-    - Peer programming to make sure style and sizing was consistent
-    - Integrated our components together and in home.html and debugged
-    - Brainstorming and adding/removing features
+  - Delegation of Responsibilities
+    - signup.html was created by Jacob along with styling
+    - signin.html was created by Ayesha along with styling
+    - left sidebar was created and styled by Ayesha
+    - feed was created and styled by Jacob
+    - right sidebar was created and styled by Ayesha
+    - Jacob and Ayesha also collaborated extensively on the home.html:
+      - Peer programming to make sure style and sizing was consistent
+      - Integrated our components together and in home.html and debugged
+      - Brainstorming and adding/removing features
