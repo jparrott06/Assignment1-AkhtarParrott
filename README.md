@@ -44,7 +44,7 @@ Repo for Assignment#1 - WebAppDev2021
         - (Chirp)
         <br>
         
-        </details>
+    </details>
 
     <details>
     <summary>2. Feed</summary>
@@ -78,7 +78,7 @@ Repo for Assignment#1 - WebAppDev2021
 
     <details>
     <summary>signin.html</summary>
-    
+
     Signin Page for Chirpy - all requirements met as specified for Assignment#1.
     We did not add the left-navbar for signin.html because that should only be accessed by a logged in user.
     </details>
