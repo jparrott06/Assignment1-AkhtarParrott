@@ -26,31 +26,32 @@
       Its basic structure is as follows:
   
   <details><summary>home.html: left-sidebar</summary>
-
-  - (Home)
-  - (#Explore)
-  - (Notifications)
-  - (Messages)
-  - (Bookmarks)
-  - (Profile)
-  - (Settings)
-  - (Chirp)
-            
+  <ul>
+  <li>(Home)</li>
+  <li>(#Explore)</li>
+  <li>(Notifications)</li>
+  <li>(Messages)</li>
+  <li>(Bookmarks)</li>
+  <li>(Profile)</li>
+  <li>(Settings)</li>
+  <li>(Chirp)</li>
+  </ul> 
   </details>
 
   <details><summary>home.html: feed</summary>
-
-    - (Home header)
-    - (ChirpBox)
-    - (Feed which contains mockdata of Chirpy posts)
-
+    <ul>
+    <li>(Home header)</li>
+    <li>(ChirpBox)</li>
+    <li>(Feed which contains mockdata of Chirpy posts)</li>
+    </ul>
   </details>
 
   <details><summary>home.html: right-sidebar</summary>
-
-    - (Search box)
-    - (News)
-    - (Who to Follow)
+  <ul>
+    <li>(Search box)</li>
+    <li>(News)</li>
+    <li>(Who to Follow/Trending)</li>
+  </ul>
   </details>
   </details>
 
