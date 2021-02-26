@@ -50,11 +50,9 @@ Repo for Assignment#1 - WebAppDev2021
     <summary>2. Feed</summary>
 
     - (Home header)
-    <br>
     - (ChirpBox)
-    <br>
     - (Feed which contains mockdata of Chirpy posts)
-    <br>
+
     </details>
 
     <details><summary>3. Right sidebar</summary>
