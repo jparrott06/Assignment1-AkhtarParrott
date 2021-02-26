@@ -25,14 +25,22 @@ Repo for Assignment#1 - WebAppDev2021
     Its basic structure is as follows:
     <br>
     1. Left sidebar which has links to
-    ```
+        <br>
         1. (Home)
+        <br>
         2. (#Explore)
+        <br>
         3. (Notifications)
+        <br>
         4. (Messages)
+        <br>
         5. (Bookmarks)
+        <br>
         6. (Profile)
+        <br>
         7. (Settings)
+        <br>
         8. (Chirp)
-    ```
+        <br>
+    2. Feed
     </details>
