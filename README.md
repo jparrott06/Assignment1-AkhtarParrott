@@ -2,7 +2,6 @@
 Repo for Assignment#1 - WebAppDev2021
 
 - File Structure
-    <details>
     ```
         Assignment1-AkhtarParrott
         ├── css
@@ -19,4 +18,3 @@ Repo for Assignment#1 - WebAppDev2021
         ├── signup.html [signup page for Chirpy]
         └── table.html ['who to follow' component]
     ```
-    </details>
