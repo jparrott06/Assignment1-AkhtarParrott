@@ -19,10 +19,8 @@
         └── table.html ['who to follow' component]
     ```
 - Description of main pages
-    <details>
-    <summary>
-  - home.html 
-    </summary>
+  <details>
+    <summary>home.html </summary>
 
     This is the homepage the user will see once logged into the Chirpy webapp (our version of Twitter).
     Its basic structure is as follows:
@@ -59,14 +57,14 @@
 
     </details>
 
-    <details>
+  <details>
     <summary>signup.html</summary>
 
     Signup Page for Chirpy - all requirements met as specified for Assignment#1.
     We did not add the left-navbar for signup.html because that should only be accessed by a logged in user.
     </details>
 
-    <details>
+  <details>
     <summary>signin.html</summary>
 
     Signin Page for Chirpy - all requirements met as specified for Assignment#1.
