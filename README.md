@@ -18,3 +18,8 @@ Repo for Assignment#1 - WebAppDev2021
         ├── signup.html [signup page for Chirpy]
         └── table.html ['who to follow' component]
     ```
+- Description of main pages
+    - <details title="home.html> 
+    
+    
+    </details>
