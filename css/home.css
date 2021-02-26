@@ -31,9 +31,9 @@ body {
 
 .feed__header {
     position: sticky;
-    width: 550px;
+    /* width: 550px; */
     top: 0;
-    
+    color: white;
     z-index: 100;
     border: 1px solid rgb(34, 32, 32);
     padding-left: 15px;
@@ -77,13 +77,14 @@ body {
 .chirpBox__input {
     padding: 20px;
     display: flex;
+    color: white;
 }
 
 .chirpBox__input > input {
     flex: 1;
     margin-left: 20px;
     margin-right: 20px;
-    border: none;
+    border: 2px solid lavenderblush;
 }
 
 
@@ -97,9 +98,10 @@ body {
     border-radius: 30px;
     width: 80px;
     height: 35px;
-    margin-top: -32px;
-    margin-bottom: 8px;
-    margin-left: 390px;
+    margin-top: 80px;
+    /* margin-bottom: 8px; */
+    position:absolute;
+    right: 60px;
 }
 
 .myicons a
@@ -121,16 +123,24 @@ body {
     align-items: flex-start;
     border-bottom: 1px solid rgb(34, 32, 32);
     padding-bottom: 10px;
+    border-right: 1px solid rgb(34, 32, 32);
+    border-left: 1px solid rgb(34, 32, 32);
 }
 
 .post__headerText > h3 {
     font-size: 15px;
     margin-bottom: 5px;
+    color: white;
 }
 
 .post__headerDescription {
     margin-bottom: 10px;
     font-size: 15px;
+    color: white;
+}
+
+.post__headerDescription > p{
+    position: center;
 }
 
 .post__body {
@@ -205,7 +215,7 @@ body {
 /* Sidebar */
 
 .sidebarMaster {
-    border-right: 1px solid black;
+    /* border-right: 1px solid black; */
     flex: 0.3
 }
 
@@ -227,7 +237,7 @@ body {
     line-height: 65px;
     padding-left: 30px;
     font-weight: bold;
-    border-right:2px solid rgb(73, 71, 71);
+    /* border-right:2px solid rgb(73, 71, 71); */
 
     font-family: 'Open Sans',sans-serif;
     
