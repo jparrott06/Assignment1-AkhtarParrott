@@ -24,7 +24,7 @@
 
     This is the homepage the user will see once logged into the Chirpy webapp (our version of Twitter).
     Its basic structure is as follows:
-    <details>
+        <details>
     <summary>1. Left sidebar</summary>
 
     - (Home)
@@ -38,21 +38,22 @@
             
         </details>
 
-    <details>
+        <details>
     <summary>2. Feed</summary>
 
     - (Home header)
     - (ChirpBox)
     - (Feed which contains mockdata of Chirpy posts)
 
-    </details>
+        </details>
 
-    <details><summary>3. Right sidebar</summary>
+        <details>
+    <summary>3. Right sidebar</summary>
 
     - (Search box)
     - (News)
     - (Who to Follow)
-    </details>
+        </details>
 
     </details>
 
