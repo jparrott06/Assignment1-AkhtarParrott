@@ -312,8 +312,8 @@ body {
 .newsfeed
 {
     float:right;
-    margin-top:5px;
-    margin-left:-10%;
+    margin-top:15px;
+    margin-right:20%;
     position:sticky;
 
 }
