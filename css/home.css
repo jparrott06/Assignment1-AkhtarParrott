@@ -84,13 +84,13 @@ body {
     flex: 1;
     margin-left: 20px;
     margin-right: 20px;
-    border: 2px solid lavenderblush;
+    border: 2px solid rgb(47, 51, 54);
 }
 
 
 /*TODO: add same styling from form buttons*/
 .chirpBox__chirpButton { 
-    background-color: rgb(34, 32, 32);
+    background-color: #096faf;
     border: none;
     color: white;
     font-weight: 900;
@@ -103,6 +103,13 @@ body {
     position:absolute;
     right: 60px;
 }
+
+.chirpBox__chirpButton:hover {
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
+
 
 .myicons a
 {
