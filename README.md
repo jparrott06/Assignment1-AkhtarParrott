@@ -23,12 +23,14 @@ Repo for Assignment#1 - WebAppDev2021
     <summary>home.html </summary>
     This is the homepage the user will see once logged into the Chirpy webapp (our version of Twitter).
     It's basic structure is as follows:
-        - Left sidebar which has links to (Home)
-                                          (#Explore)
-                                          (Notifications)
-                                          (Messages)
-                                          (Bookmarks)
-                                          (Profile)
-                                          (Settings)
-                                          (Chirp)
+    <br>
+    Left sidebar which has links to       
+    1. (Home)
+    2. (#Explore)
+    3. (Notifications)
+    4. (Messages)
+    5. (Bookmarks)
+    6. (Profile)
+    7. (Settings)
+    8. (Chirp)
     </details>
