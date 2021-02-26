@@ -19,7 +19,7 @@ Repo for Assignment#1 - WebAppDev2021
         └── table.html ['who to follow' component]
     ```
 - Description of main pages
-    - <details text="home.html> 
+    - <details text="home.html"> 
 
     
     </details>
