@@ -56,19 +56,19 @@
 
     </details>
 
-<details>
+    <details>
     <summary>signup.html</summary>
 
     Signup Page for Chirpy - all requirements met as specified for Assignment#1.
     We did not add the left-navbar for signup.html because that should only be accessed by a logged in user.
-</details>
+    </details>
 
-<details>
+    <details>
     <summary>signin.html</summary>
 
     Signin Page for Chirpy - all requirements met as specified for Assignment#1.
     We did not add the left-navbar for signin.html because that should only be accessed by a logged in user.
-</details>
+    </details>
 
   - Delegation of Responsibilities
     - signup.html was created by Jacob along with styling
