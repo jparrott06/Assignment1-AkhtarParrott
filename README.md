@@ -73,6 +73,6 @@
     - feed was created and styled by Jacob
     - right sidebar was created and styled by Ayesha
     - Jacob and Ayesha also collaborated extensively on the home.html:
-      - Peer programming to make sure style and sizing was consistent
+      - Pair programming to make sure style and sizing was consistent
       - Integrated our components together and in home.html and debugged
       - Brainstorming and adding/removing features
