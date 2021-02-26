@@ -306,17 +306,10 @@ body {
     border-radius: 50px;
     background-color: rgb(49, 45, 45);
     float:right;
-    left: 0;
+    right: 12px;
     position:sticky;
 }
-.newsfeed
-{
-    float:right;
-    margin-top:30px;
-    margin-left:-20%;
-    position:sticky;
 
-}
 .search-contents
 {
     width:100%;
@@ -402,10 +395,10 @@ table.followers #fourth {
 .newsfeed
 {
     float:right;
-    margin-top:5px;
+    margin-top:20px;
     margin-left:-10%;
     position:sticky;
-
+    right: 15px;
 }
 .new1 img
 {
