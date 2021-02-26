@@ -2,8 +2,8 @@
 Repo for Assignment#1 - WebAppDev2021
 
 File Structure
+```
     Assignment1-AkhtarParrott
-    .
     ├── css
     │   ├── images/.. [images used for webpages]
     │   └── /..[.css files for each html file]
@@ -17,3 +17,4 @@ File Structure
     ├── signin.html [signin page for Chirpy]
     ├── signup.html [signup page for Chirpy]
     └── table.html ['who to follow' component]
+```
