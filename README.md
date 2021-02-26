@@ -65,3 +65,9 @@ Repo for Assignment#1 - WebAppDev2021
     Signup Page for Chirpy - all requirements met as specified for Assignment#1.
     We did not add the left-navbar for signup.html because that should only be accessed by a logged in user.
     </details>
+
+    <details>
+    <summary>signin.html</summary>
+    Signin Page for Chirpy - all requirements met as specified for Assignment#1.
+    We did not add the left-navbar for signin.html because that should only be accessed by a logged in user.
+    </details>
