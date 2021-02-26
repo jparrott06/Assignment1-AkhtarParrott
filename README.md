@@ -19,13 +19,11 @@
         └── table.html ['who to follow' component]
     ```
 - Description of main pages
-  <details>
-    <summary>home.html </summary>
+  <details><summary>home.html </summary>
 
     This is the homepage the user will see once logged into the Chirpy webapp (our version of Twitter).
     Its basic structure is as follows:
-        <details>
-        <summary>1. Left sidebar</summary>
+        <details><summary>1. Left sidebar</summary>
 
     - (Home)
     - (#Explore)
@@ -38,8 +36,7 @@
             
         </details>
 
-        <details>
-        <summary>2. Feed</summary>
+        <details><summary>2. Feed</summary>
 
       - (Home header)
       - (ChirpBox)
