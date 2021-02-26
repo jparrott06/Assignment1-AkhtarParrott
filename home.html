@@ -44,21 +44,22 @@ It doesn’t have to be collapsible but needs to look decent.'
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="//code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous"></script>
-  <!-- <script>
+  <script>
     $(function () {
       $('#header').load('header.html');
     });
-  </script> -->
+  </script>
 </head>
 
 <body style="background-color: black">
-  <!-- <div id="header"></div> -->
 
-  <div class="container">
+  <div class="row">
 
-    <div class="sidebarMaster">
 
-      <div class="heading_image">
+
+    <div class="col-lg-2 col-md-4">
+      <div id="header"></div>
+      <!-- <div class="heading_image">
         <i class="fa fa-twitter" style="font-size:48px;color:#1DA1F2;width:40px;height: 35px;"></i>
       </div>
       <div class="sidebar" id="header">
@@ -72,10 +73,10 @@ It doesn’t have to be collapsible but needs to look decent.'
         <a href="#"><i class="fa fa-cog"></i><span>Settings</span></a>
         <a href="#"><button type="button" id="chirp">CHIRP</button></a>
     
-      </div>
+      </div> -->
     </div>
 
-    <div class="feed">
+    <div class="col-lg-6 col-md-4">
       <div class="feed__header">
         <h2>Home</h2>
       </div>
@@ -91,7 +92,7 @@ It doesn’t have to be collapsible but needs to look decent.'
             <a href="#"><i class="material-icons" id="gif">gif</i></a>
             <a href="#"><i class="material-icons" id="emoji">emoji_emotions</i></a>
             <a href="#"><i class="material-icons" id="poll">poll</i></a>
-            <a href="#"><i class="material-icons" id ="schedule">calendar_today</i></a>
+            <a href="#"><i class="material-icons" id="schedule">calendar_today</i></a>
           </div>
           <button class="chirpBox__chirpButton" type="submit">Chirp!</button>
         </form>
@@ -109,12 +110,14 @@ It doesn’t have to be collapsible but needs to look decent.'
               </h3>
             </div>
             <div class="post__headerDescription">
-              <p>Wow. I really love Chirping on Chirpy! :)</p>
+              <center>
+                <p>Wow. I really love Chirping on Chirpy! :)</p>
+              </center>
             </div>
 
 
           </div>
-          <img src="./css/images/mockImage.gif" alt="gif">
+          <center><img src="./css/images/mockImage.gif" alt="gif"></center>
           <div class="post__footer">
             <i class="fa fa-comment"></i>
             <i class="fa fa-retweet"></i>
@@ -137,12 +140,14 @@ It doesn’t have to be collapsible but needs to look decent.'
               </h3>
             </div>
             <div class="post__headerDescription">
-              <p>I can't wait to cheep on chirpy</p>
+              <center>
+                <p>I can't wait to cheep on chirpy</p>
+              </center>
             </div>
 
 
           </div>
-          <img src="./css/images/mockYodigif.gif" alt="gif">
+          <center><img src="./css/images/mockYodigif.gif" alt="gif" width="350px"></center>
           <div class="post__footer">
             <i class="fa fa-comment"></i>
             <i class="fa fa-retweet"></i>
@@ -165,12 +170,14 @@ It doesn’t have to be collapsible but needs to look decent.'
               </h3>
             </div>
             <div class="post__headerDescription">
-              <p>OMG I just like totally wanna CHIRP it up!@!</p>
+              <center>
+                <p>OMG I just liek totally wanna CHIRP it up!@!</p>
+              </center>
             </div>
 
 
           </div>
-          <img src="./css/images/mockOMGgif.gif" alt="gif">
+          <center><img src="./css/images/mockOMGgif.gif" alt="gif" width="350px"></center>
           <div class="post__footer">
             <i class="fa fa-comment"></i>
             <i class="fa fa-retweet"></i>
@@ -185,7 +192,7 @@ It doesn’t have to be collapsible but needs to look decent.'
     </div>
 
 
-    <div class="widgets">
+    <div class="col-lg-4 col-md-4">
       <div class="search-box">
         <i class="fa fa-search searchIcon" id='icon'></i>
         <input class="search" type="text" name="" placeholder="Search Chirpy">
@@ -196,12 +203,12 @@ It doesn’t have to be collapsible but needs to look decent.'
       <div class="newsfeed">
         <iframe height="500" width="350" class="responsive-iframe" src="https://rss.app/embed/v1/pbyFmgfaPdGTq04r"
           frameBorder="0"></iframe>
+      </div>
+
     </div>
 
   </div>
-
-      </div>
-    </div>
+  </div>
 
 </body>
 

@@ -38,9 +38,18 @@
     border-left: 5px solid transparent;
     border-radius: 25px;
     padding: 10px;
-   
+    color:white;
 }
-
+#chirp span
+{
+    background-color: #1DA1F2;
+    font-weight: bold;
+    color:white;
+    font-family: 'Open Sans',sans-serif;
+    position: relative;
+    bottom: 28px;
+    
+}
 a:hover
 {
     border-left: 5px solid #1DA1F2;
