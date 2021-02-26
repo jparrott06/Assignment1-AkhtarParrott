@@ -24,7 +24,7 @@ Repo for Assignment#1 - WebAppDev2021
     This is the homepage the user will see once logged into the Chirpy webapp (our version of Twitter).
     Its basic structure is as follows:
     <br>
-    1. <details><summary>Left sidebar which has links to</summary>
+     <details><summary>1. Left sidebar which has links to</summary>
         1. (Home)
         2. (#Explore)
         3. (Notifications)
