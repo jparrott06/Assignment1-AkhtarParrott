@@ -20,12 +20,11 @@
     ```
 - Description of main pages
     <details> 
-    <summary>home.html </summary>
+    <summary>home.html</summary>
 
     This is the homepage the user will see once logged into the Chirpy webapp (our version of Twitter).
     Its basic structure is as follows:
-            <details>
-                <summary>1. Left sidebar</summary>
+        <details><summary>1. Left sidebar</summary>
 
     - (Home)
     - (#Explore)
@@ -35,23 +34,21 @@
     - (Profile)
     - (Settings)
     - (Chirp)
-            </details>
+        </details>
 
-    <details>
-    <summary>2. Feed</summary>
+        <details><summary>2. Feed</summary>
 
     - (Home header)
     - (ChirpBox)
     - (Feed which contains mockdata of Chirpy posts)
+        </details>
 
-    </details>
-
-    <details><summary>3. Right sidebar</summary>
+        <details><summary>3. Right sidebar</summary>
 
     - (Search box)
     - (News)
     - (Who to Follow)
-    </details>
+        </details>
 
     </details>
 
@@ -68,7 +65,6 @@
     Signin Page for Chirpy - all requirements met as specified for Assignment#1.
     We did not add the left-navbar for signin.html because that should only be accessed by a logged in user.
     </details>
-
 - Delegation of Responsibilities
   - signup.html was created by Jacob along with styling
   - signin.html was created by Ayesha along with styling
