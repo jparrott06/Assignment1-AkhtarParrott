@@ -6,9 +6,9 @@ File Structure
     Assignment1-AkhtarParrott
     ├── css
     │   ├── images/.. [images used for webpages]
-    │   └── /..[.css files for each html file]
+    │   └── /[.css files for each html file]
     ├── jss
-    │   └── /..[.js files for each html file]
+    │   └── /[.js files for each html file]
     │   
     ├── favicon.ico [Chirpy icon for page headers]
     │── header.html [left-sidebar for homepage]
