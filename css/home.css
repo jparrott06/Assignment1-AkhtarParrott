@@ -469,6 +469,10 @@ table.followers #fourth {
 {
     font-weight: 800;
 }
+.contain
+{
+    float:right;
+}
 #fifth
 {
     color:#1DA1F2;
