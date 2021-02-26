@@ -2,7 +2,7 @@
 Repo for Assignment#1 - WebAppDev2021
 
 - File Structure
-    - <details>
+    <details>
     ```
         Assignment1-AkhtarParrott
         ├── css
