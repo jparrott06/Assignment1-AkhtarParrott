@@ -1,7 +1,7 @@
 # Assignment1-AkhtarParrott
 ## Repo for Assignment#1 - WebAppDev2021
 
-- File Structure
+- File Structure:
     ```
         Assignment1-AkhtarParrott
         ├── css
@@ -19,7 +19,7 @@
         ├── verify.html [asks user to verify account after signup]
         └── table.html ['who to follow' component]
     ```
-- Description of main pages
+- Description of main pages:
   <details>
   <summary>home.html </summary>
 
@@ -73,7 +73,7 @@
       Verify Page for Chirpy - user must verify account after signup with 5-digit code
   </details>
 
-- Delegation of Responsibilities
+- Delegation of Responsibilities:
   - signup.html was created by Jacob along with styling
   - signin.html was created by Ayesha along with styling
   - left sidebar was created and styled by Ayesha
@@ -83,3 +83,20 @@
     - Pair programming to make sure style and sizing was consistent
     - Integrated our components together and in home.html and debugged
     - Brainstorming and adding/removing features
+
+- Notes and Caveats:
+  - <i>The navbar was purposely left off certain pages because it should not appear for users if they are not logged in/don't have an account</i>
+  - certain "inline" styling was necessary for proper rendering
+    - this occured with signup background image
+    - the html-checker did not like this but css pathing to image does not display for some reason
+  - at first we tried to develop components in a modular fashion as to make code easier to read and follow best practices but had <i>horrible</i> issues with the components not loading/rendering.
+    - these files include table, right-hand-col, header:
+      - these are not standalone webpages and are considered componenets - some are not used.
+- Moving Forward and Lessons Learned
+  - In order to develop in a modular fashion we both want to use a framework like React or Vue where we can create reusable component classes
+    - this will avoid a lot of headache, make code more resilient and readable
+    - rendering issues with importing our components made for a lot of time spent refactoring our codebase
+  - Peer programming was extremely effective when trouble-shooting a single page and figuring out sizing/styling
+    - we anticipate using this strategy again for larger/more complex files as we integrate this Chirpy webapp FE design into a full-stack application.
+  - I met with the TA and he made a great point about certain css libraries/frameworks overwriting and competing with one another
+    - This can be a good heuristic to use for solving difficult or odd issues with styling especially
