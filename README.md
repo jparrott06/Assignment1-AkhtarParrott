@@ -16,6 +16,7 @@
         ├── right-hand-col.html [right-sidebar for homepage]
         ├── signin.html [signin page for Chirpy]
         ├── signup.html [signup page for Chirpy]
+        ├── verify.html [asks user to verify account after signup]
         └── table.html ['who to follow' component]
     ```
 - Description of main pages
@@ -65,6 +66,11 @@
 
       Signin Page for Chirpy - all requirements met as specified for Assignment#1.
       We did not add the left-navbar for signin.html because that should only be accessed by a logged in user.
+  </details>
+
+  <details><summary>verify.html</summary>
+
+      Verify Page for Chirpy - user must verify account after signup with 5-digit code
   </details>
 
 - Delegation of Responsibilities
