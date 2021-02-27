@@ -131,3 +131,10 @@
     - we anticipate using this strategy again for larger/more complex files as we integrate this Chirpy webapp FE design into a full-stack application.
   - I met with the TA and he made a great point about certain css libraries/frameworks overwriting and competing with one another
     - This can be a good heuristic to use for solving difficult or odd issues with styling especially
+
+- <b><i><u>Extras and Goodies</u></i></b>
+  - HINT: Click the Chirpy bird icon on the signup.html page
+  - Check out the background image on signup.html
+  - Hover over buttons to see color changes and transitions
+  - Click on the Searchbox on home.html
+  - More to come when we go from static to dynamic scripts!
