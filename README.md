@@ -84,6 +84,33 @@
     - Integrated our components together and in home.html and debugged
     - Brainstorming and adding/removing features
 
+- Project Vision:
+  - We are developing a social media web application modeled on Twitter, called <b><i>Chirpy!</b></i>
+  - Inspiration for features, aesthetics, and design choices are heavily influenced by Twitter and especially the Dark Mode version of the application
+
+- Technologies used:
+  - CSS
+    - Bootstrap library
+    - font-awesome (for icons)
+  - Javascript
+    - jquery
+  - HTML
+
+- Installation Guide:
+  - Since these are static webpages there is no extensive installation required
+    - The pages can be seen via our github pages link: https://jparrott06.github.io/Assignment1-AkhtarParrott
+  - As long as you have the code, have support for js, css and html via Visual Studio or similar, you will be able to run the code
+
+- Design Choices:
+  - We initially tried to develop components separately for a few reasons:
+    - modularity
+    - best practices
+    - resiliency
+    - readability
+    - reusability
+  - However, we encountered many issues with importing/rendering (see more in section below)
+  - We will stil use this design choice but will do so with a more powerful library/framework like React in the future
+
 - Notes and Caveats:
   - <i>The navbar was purposely left off certain pages because it should not appear for users if they are not logged in/don't have an account</i>
   - certain "inline" styling was necessary for proper rendering
@@ -96,6 +123,10 @@
   - In order to develop in a modular fashion we both want to use a framework like React or Vue where we can create reusable component classes
     - this will avoid a lot of headache, make code more resilient and readable
     - rendering issues with importing our components made for a lot of time spent refactoring our codebase
+  - Deciding on our Tech Stack:
+    - Both developers have some experience with React, and Jacob has used the MERN stack in the past
+    - We will reach a decision within the next week or two to decide on a stack, taking into account pros/cons of different technologies and our requirements
+    - This will also help us from a design and organizational perspective once we know the BackEnd techologies we will be utilizing
   - Peer programming was extremely effective when trouble-shooting a single page and figuring out sizing/styling
     - we anticipate using this strategy again for larger/more complex files as we integrate this Chirpy webapp FE design into a full-stack application.
   - I met with the TA and he made a great point about certain css libraries/frameworks overwriting and competing with one another
