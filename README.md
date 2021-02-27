@@ -109,7 +109,7 @@
     - readability
     - reusability
   - However, we encountered many issues with importing/rendering (see more in section below)
-  - We will stil use this design choice but will do so with a more powerful library/framework like React in the future
+  - We will still use this design choice but will do so with a more powerful library/framework like React in the future
 
 - Notes and Caveats:
   - <i>The navbar was purposely left off certain pages because it should not appear for users if they are not logged in/don't have an account</i>
