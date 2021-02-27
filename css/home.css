@@ -349,6 +349,10 @@ body {
     /* background-color: transparent; */
 }
 
+.new {
+    background-color: rgb(49, 45, 45);
+}
+
 table.followers{ 
     border: 3px rgb(49, 45, 45);
     border-radius: 13px; 
@@ -359,7 +363,6 @@ table.followers{
 {
     width:370px;
     height:320px;
-    
 }
 .followers td, th {
     color:black;
@@ -396,7 +399,7 @@ table.followers #fourth {
 }
 .new1 img
 {
-    width: 50px;
+    width: 70px;
     height: 50px;
     border-radius: 50%;
     padding: 0 10px;
