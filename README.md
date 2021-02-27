@@ -85,7 +85,7 @@
     - Brainstorming and adding/removing features
 
 - Project Vision:
-  - We are developing a social media web application modeled on Twitter, called <b><i>Chirpy!</b></i>
+  - We are developing a social media web application modeled on Twitter, called <b><i>Chirpy!</i></b>
   - Inspiration for features, aesthetics, and design choices are heavily influenced by Twitter and especially the Dark Mode version of the application
 
 - Technologies used:
