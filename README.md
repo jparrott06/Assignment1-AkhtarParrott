@@ -1,7 +1,7 @@
 # Assignment1-AkhtarParrott
 ## Repo for Assignment#1 - WebAppDev2021
 
-- File Structure:
+- ### File Structure:
     ```
         Assignment1-AkhtarParrott
         ├── css
@@ -19,7 +19,7 @@
         ├── verify.html [asks user to verify account after signup]
         └── table.html ['who to follow' component]
     ```
-- Description of main pages:
+- ### Description of main pages:
   <details>
   <summary>home.html </summary>
 
@@ -73,7 +73,7 @@
       Verify Page for Chirpy - user must verify account after signup with 5-digit code
   </details>
 
-- Delegation of Responsibilities:
+- ### Delegation of Responsibilities:
   - signup.html was created by Jacob along with styling
   - signin.html was created by Ayesha along with styling
   - left sidebar was created and styled by Ayesha
@@ -84,11 +84,11 @@
     - Integrated our components together and in home.html and debugged
     - Brainstorming and adding/removing features
 
-- Project Vision:
+- ### Project Vision:
   - We are developing a social media web application modeled on Twitter, called <b><i>Chirpy!</i></b>
   - Inspiration for features, aesthetics, and design choices are heavily influenced by Twitter and especially the Dark Mode version of the application
 
-- Technologies used:
+- ### Technologies used:
   - CSS
     - Bootstrap library
     - font-awesome (for icons)
@@ -96,12 +96,12 @@
     - jquery
   - HTML
 
-- Installation Guide:
+- ### Installation Guide:
   - Since these are static webpages there is no extensive installation required
     - The pages can be seen via our github pages link: https://jparrott06.github.io/Assignment1-AkhtarParrott
   - As long as you have the code, have support for js, css and html via Visual Studio or similar, you will be able to run the code
 
-- Design Choices:
+- ### Design Choices:
   - We initially tried to develop components separately for a few reasons:
     - modularity
     - best practices
@@ -111,7 +111,7 @@
   - However, we encountered many issues with importing/rendering (see more in section below)
   - We will still use this design choice but will do so with a more powerful library/framework like React in the future
 
-- Notes and Caveats:
+- ### Notes and Caveats:
   - <i>The navbar was purposely left off certain pages because it should not appear for users if they are not logged in/don't have an account</i>
   - certain "inline" styling was necessary for proper rendering
     - this occured with signup background image
@@ -119,7 +119,7 @@
   - at first we tried to develop components in a modular fashion as to make code easier to read and follow best practices but had <i>horrible</i> issues with the components not loading/rendering.
     - these files include table, right-hand-col, header:
       - these are not standalone webpages and are considered componenets - some are not used.
-- Moving Forward and Lessons Learned
+- ### Moving Forward and Lessons Learned
   - In order to develop in a modular fashion we both want to use a framework like React or Vue where we can create reusable component classes
     - this will avoid a lot of headache, make code more resilient and readable
     - rendering issues with importing our components made for a lot of time spent refactoring our codebase
@@ -132,7 +132,7 @@
   - I met with the TA and he made a great point about certain css libraries/frameworks overwriting and competing with one another
     - This can be a good heuristic to use for solving difficult or odd issues with styling especially
 
-- <b><i><u>Extras and Goodies</u></i></b>
+- ### <b><i><u>Extras and Goodies</u></i></b>
   - HINT: Click the Chirpy bird icon on the signup.html page
   - Check out the background image on signup.html
   - Hover over buttons to see color changes and transitions
