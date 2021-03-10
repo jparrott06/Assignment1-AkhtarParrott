@@ -38,7 +38,8 @@
                 <book-display v-if="result != null" v-for="(book, index) in result.items" :key="book.id" :book = "JSON.stringify(book)"></book-display>
             </div>
         </div>
-        <button type="button" class="btn btn-primary" v-if="result != null && result.totalItems > 0" v-on:click="searchGoogleBooks(20)">Next</button>
+        <button type="button" class="btn btn-secondary" v-if="result != null && result.totalItems > 0 && index >= 20" v-on:click="PrevsearchGoogleBooks(index)">Prev</button>
+        <button type="button" class="btn btn-primary" v-if="result != null && result.totalItems > 0" v-on:click="NextsearchGoogleBooks(index)">Next</button>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
