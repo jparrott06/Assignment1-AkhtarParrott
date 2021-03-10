@@ -12,8 +12,8 @@ app.component('book-display', {
     <a class = "list-group-item list-group-item-action active" :href ="this.bookObj.selfLink ">{{this.bookObj.volumeInfo.title}}</a>
     <li class="list-group-item">{{this.bookObj.volumeInfo.authors}}</li>
     <li class = "list-group-item">{{this.bookObj.volumeInfo.publisher}}, {{this.bookObj.volumeInfo.publishedDate}}</li>
-    <li class="list-group-item"><img class="thumbnail" src="{{ this.BookObj.volumeInfo.imageLinks.smallThumbnail }}"></li>
-    <li class="list-group-item" v-if="result != null">{{ this.BookObj.volumeInfo.pageCount }} pages, {{ this.BookObj.volumeInfo.averageRating }} rating</li>
+    <li class="list-group-item"><img class="thumbnail" src="{{ this.bookObj.volumeInfo.imageLinks.smallThumbnail }}"></li>
+    <li class="list-group-item" v-if="this.bookObj.volumeInfo != null && this.bookObj.volumeInfo.averageRating != null">{{ this.bookObj.volumeInfo.pageCount }} pages, {{ this.bookObj.volumeInfo.averageRating }} rating</li>
     </ul>`,
     computed:
     {
