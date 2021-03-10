@@ -13,7 +13,7 @@ app.component('book-display', {
     <li class="list-group-item">{{this.bookObj.volumeInfo.authors}}</li>
     <li class = "list-group-item">{{this.bookObj.volumeInfo.publisher}}, {{this.bookObj.volumeInfo.publishedDate}}</li>
     <li class="list-group-item"><img class="thumbnail" src="{{ this.bookObj.volumeInfo.imageLinks.smallThumbnail }}"></li>
-    <li class="list-group-item" v-if="this.bookObj.volumeInfo != null && this.bookObj.volumeInfo.averageRating != null">{{ this.bookObj.volumeInfo.pageCount }} pages, {{ this.bookObj.volumeInfo.averageRating }} rating</li>
+    <li class="list-group-item" v-if="this.bookObj.volumeInfo != null && this.bookObj.volumeInfo.averageRating != null">{{ this.bookObj.volumeInfo.pageCount }} pages, {{ this.bookObj.volumeInfo.averageRating }} <i class="fa fa-star"></i> rating</li>
     </ul>`,
     computed:
     {
