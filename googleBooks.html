@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://unpkg.com/vue@next"></script>
@@ -33,14 +33,17 @@
             </fieldset>
         </form>
         <div id="mainDiv">
-            <div class="row col-sm-5" v-if="result != null">found {{ (result != null)?result.totalItems+index:''}}</div>
+            <div class="row col-sm-5" v-if="result != null">Found {{ (result != null)?result.totalItems+index:''}} results</div>
+            <div v-else>Enter in a search value</div>
             <div class = "row">
                 <book-display v-if="result != null" v-for="(book, index) in result.items" :key="book.id" :book = "JSON.stringify(book)"></book-display>
             </div>
             
         </div>
-        <button type="button" class="btn btn-secondary" v-if="result != null && result.totalItems+index > 0 && index >= 20" v-on:click="PrevsearchGoogleBooks(index)">Prev</button>
-        <button type="button" class="btn btn-primary" v-if="result != null && result.totalItems+index > 0 && result.totalItems - index > 0" v-on:click="NextsearchGoogleBooks(index)">Next</button>
+        <div id="container">
+        <button id="mybtn1" type="button" class="btn btn-secondary" v-if="result != null && result.totalItems+index > 0 && index >= 20" v-on:click="PrevsearchGoogleBooks(index)">Prev</button>
+        <button id="mybtn1" type="button" class="btn btn-primary" v-if="result != null && result.totalItems+index > 0 && result.totalItems - index > 0" v-on:click="NextsearchGoogleBooks(index)">Next</button>
+    </div>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
