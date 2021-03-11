@@ -9,24 +9,26 @@ const app = Vue.createApp(
             }
         },
         methods: {
-            searchGoogleBooks(index) {
+            searchGoogleBooks() {
 
                 this.index = 0
-                fetch('https://www.googleapis.com/books/v1/volumes/?q=' + this.keyword + "&startIndex=" + index + "&maxResults=20")
+                fetch('https://www.googleapis.com/books/v1/volumes/?q=' + this.keyword + "&startIndex=" + this.index + "&maxResults=20")
                     .then(response => response.json())
                     .then(json => this.result = json)
             },
-            NextsearchGoogleBooks(index) {
-
+            NextsearchGoogleBooks() {
+                
                 this.index += 20
-                fetch('https://www.googleapis.com/books/v1/volumes/?q=' + this.keyword + "&startIndex=" + index + "&maxResults=20")
+                console.log(this.index)
+                fetch('https://www.googleapis.com/books/v1/volumes/?q=' + this.keyword + "&startIndex=" + this.index + "&maxResults=20")
                     .then(response => response.json())
                     .then(json => this.result = json)
             },
-            PrevsearchGoogleBooks(index) {
+            PrevsearchGoogleBooks() {
 
                 this.index -=20
-                fetch('https://www.googleapis.com/books/v1/volumes/?q=' + this.keyword + "&startIndex=" + index + "&maxResults=20")
+                console.log(this.index)
+                fetch('https://www.googleapis.com/books/v1/volumes/?q=' + this.keyword + "&startIndex=" + this.index + "&maxResults=20")
                     .then(response => response.json())
                     .then(json => this.result = json)
             }

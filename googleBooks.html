@@ -12,7 +12,7 @@
 
 <body>
     <div id="app">
-        <form @submit.prevent="searchGoogleBooks(0)">
+        <form @submit.prevent="searchGoogleBooks()">
             <fieldset class="border">
                 <legend class="w-auto">Google Books Search</legend>
                 <div class="row form-group">
@@ -41,8 +41,8 @@
             
         </div>
         <div id="container">
-        <button id="mybtn1" type="button" class="btn btn-secondary" v-if="result != null && result.totalItems+index > 0 && index >= 20" v-on:click="PrevsearchGoogleBooks(index)">Prev</button>
-        <button id="mybtn1" type="button" class="btn btn-primary" v-if="result != null && result.totalItems+index > 0 && result.totalItems - index > 0" v-on:click="NextsearchGoogleBooks(index)">Next</button>
+        <button id="mybtn1" type="button" class="btn btn-secondary" v-if="result != null && result.totalItems+index > 0 && index >= 20" v-on:click="PrevsearchGoogleBooks()">Prev</button>
+        <button id="mybtn1" type="button" class="btn btn-primary" v-if="result != null && result.totalItems+index > 0 && result.totalItems - index > 0" v-on:click="NextsearchGoogleBooks()">Next</button>
     </div>
     </div>
     
