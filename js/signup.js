@@ -5,19 +5,52 @@ function Verifyonclick() {
     }
 }
 
-function ValidateForm()
+function ValidateForm(form)
 {
-    var pass1 = document.getElementById("pass1");
-    var pass2 = document.getElementById("pass2");
-    var errorr = document.querySelector("#passerror");
-    var valid = true;
+     pass1 = form.pass1.value;
+     pass2 = form.pass2.value;
+     var errorr = document.querySelector("#txtpasserror");
+     var valid = true;
 
-    if (pass1 != pass2)
-    {
+     if (pass1 != pass2)
+     {
         errorr.classList.remove("invisible");
-        errorr.innerHTML = "The Date of Birth cannot be empty."
-        document.getElementById('txtdob').style.backgroundColor="yellow";
-        valid=false;
-    }
-    return valid;
+         errorr.innerHTML = "The passwords do not match.";
+         pass2.classList.add("hasError");
+         //document.getElementById('pass2').style.backgroundColor="yellow";
+         //alert("Error");
+    //     document.getElementById('txtdob').style.backgroundColor="yellow";
+    //alert ("\nPassword did not match: Please try again...")
+         valid=false;
+     }
+     else
+     {
+         valid=true;
+     }
+     return valid;
+
+}
+function func()
+{
+$(document).ready(function(){
+    $('#ddSecurityQuestion').on('change', function() {
+        if(this.value == 'What was your high school mascot?')
+        {
+            $("#txtAnswer").show();
+        }
+        else if (this.value == 'Who is your favorite author?')
+        {
+            $("#txtAnswer").show();
+        }
+        else if (this.value == "What is your mother's maiden name?")
+        {
+            $("#txtAnswer").show();
+        }
+        else
+        {
+            $("#txtAnswer").hide();
+        }
+
+    });
+});
 }

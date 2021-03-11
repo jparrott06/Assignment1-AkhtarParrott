@@ -242,3 +242,7 @@ label {
 {
     background-color: yellow;
 }
+#txtAnswer
+{
+    display:none;
+}
