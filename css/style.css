@@ -6,7 +6,7 @@
 .thumbnail
 {
     width:150px;
-    height:150px;
+    height:200px;
 }
 .bookinfo
 {
@@ -16,4 +16,8 @@
 {
     position: relative;
     bottom: 12px;
+}
+
+.hasError {
+    color: red;
 }

@@ -27,19 +27,20 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <button type="submit" class="btn btn-primary">Search</button>
-                        <button type="reset" class="btn btn-secondary">Reset</button>
+                        <button type="reset" class="btn btn-secondary" @click="reset()">Reset</button>
                     </div>
                 </div>
             </fieldset>
         </form>
         <div id="mainDiv">
             <div class="row col-sm-5" v-if="result != null">Found {{ (total != null)?total.totalItems:''}} results</div>
-            <div v-else>Enter in a search value</div>
+            <!-- <div v-else>Enter in a search value</div> -->
             <div class = "row">
                 <book-display v-if="result != null" v-for="(book, index) in result.items" :key="book.id" :book = "JSON.stringify(book)"></book-display>
             </div>
             
         </div>
+        <div id="errorDiv"></div>
         <div id="container">
         <button id="mybtn1" type="button" class="btn btn-secondary" v-if="result != null && result.totalItems+index > 0 && index >= 20" v-on:click="PrevsearchGoogleBooks()">Prev</button>
         <button id="mybtn1" type="button" class="btn btn-primary" v-if="result != null && result.totalItems+index > 0 && result.totalItems - index > 0" v-on:click="NextsearchGoogleBooks()">Next</button>
