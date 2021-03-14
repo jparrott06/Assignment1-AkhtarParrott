@@ -14,7 +14,7 @@ app.component('book-display', {
     <li class = "list-group-item" v-if="this.bookObj.volumeInfo.publisher != undefined">Publisher: {{this.bookObj.volumeInfo.publisher}}</li>
     <li class = "list-group-item" v-if="this.bookObj.volumeInfo.publishedDate != undefined">Published Date: {{this.bookObj.volumeInfo.publishedDate}}</li>
     <li class="list-group-item" v-if="this.bookObj.volumeInfo.pageCount != undefined">{{ this.bookObj.volumeInfo.pageCount }} pages</li>
-    <li class="list-group-item" v-if="this.bookObj.volumeInfo.averageRating != null">{{ this.bookObj.volumeInfo.averageRating }} <i class="fa fa-star"></i> rating</li>
+    <li class="list-group-item" v-if="this.bookObj.volumeInfo.averageRating != null">{{ this.bookObj.volumeInfo.averageRating }} <i class="fa fa-star" style="color:gold"></i> rating</li>
     <li class="list-group-item" v-if="this.bookObj.volumeInfo.title != undefined && this.bookObj.volumeInfo.title.length > 0"><a :href="'https://amazon.com/s?k=' + this.bookObj.volumeInfo.title + '&ref=nb_sb_noss'" target="_blank" class="btn btn-primary">Buy on Amazon</a></li>
     </ul>`,
     computed:
