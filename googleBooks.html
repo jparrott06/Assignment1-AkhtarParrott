@@ -33,7 +33,7 @@
             </fieldset>
         </form>
         <div id="mainDiv">
-            <div class="row col-sm-5" v-if="result != null">Found {{ (result != null)?result.totalItems+index:''}} results</div>
+            <div class="row col-sm-5" v-if="result != null">Found {{ (result != null)?total:''}} results</div>
             <div v-else>Enter in a search value</div>
             <div class = "row">
                 <book-display v-if="result != null" v-for="(book, index) in result.items" :key="book.id" :book = "JSON.stringify(book)"></book-display>
