@@ -15,6 +15,7 @@ const app = Vue.createApp(
                 var txtSearch = document.querySelector("#txtSearch")
 
                 if(txtSearch.value == "") {
+                    document.querySelector("#errorDiv").classList.remove("invisible")
                     document.querySelector("#errorDiv").classList.add("hasError")
                     document.querySelector("#errorDiv").innerHTML = "No search keyword provided..."
                     this.index = 0
@@ -24,8 +25,10 @@ const app = Vue.createApp(
                     return;
 
                 }
-    
+
+                document.querySelector("#errorDiv").classList.add("invisible")
                 document.querySelector("#errorDiv").classList.remove("hasError")
+                document.querySelector("#errorDiv").innerHTML = ""
 
                 this.index = 0
                 fetch('https://www.googleapis.com/books/v1/volumes/?q=' + this.keyword + "&startIndex=" + this.index + "&maxResults=20")
@@ -56,6 +59,7 @@ const app = Vue.createApp(
                 this.total = null
                 document.querySelector("#errorDiv").classList.remove("hasError")
                 document.querySelector("#errorDiv").innerHTML = ""
+                document.querySelector("#errorDiv").classList.add("invisible")
             }
         }
 
