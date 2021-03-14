@@ -12,13 +12,22 @@ const app = Vue.createApp(
         methods: {
             searchGoogleBooks() {
 
+                // var txtSearch = document.querySelector("#txtSearch")
+
+                // if(txtSearch.value == "") {
+                //     document.querySelector("#mainDiv").classList.add("hasError")
+                //     document.querySelector("#mainDiv").innerHTML = "No search keyword provided..."
+                //     return;
+
+                // }
+    
+                // document.querySelector("#mainDiv").classList.remove("hasError")
+
                 this.index = 0
                 fetch('https://www.googleapis.com/books/v1/volumes/?q=' + this.keyword + "&startIndex=" + this.index + "&maxResults=20")
                     .then(response => response.json())
                     .then(json => this.result = json)
-                    .then(console.log(this.result))
-                    // .then(this.total = this.result.totalItems)
-                this.total = this.result.totalItems
+                    .then(json => this.total = json)
             },
             NextsearchGoogleBooks() {
                 
