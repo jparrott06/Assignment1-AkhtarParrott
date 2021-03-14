@@ -15,9 +15,11 @@ function ValidateForm(form) {
     if (pass1 != pass2) {
         error2.classList.remove("invisible");
         error2.innerHTML = "The passwords do not match.";
-        alert(form.pass2.classList);
-        form.pass2.classList.add("hasError");
-        alert(form.pass2.classList);
+        // alert(form.pass2.classList)
+        var check = document.querySelector('#pass2');
+        check.classList.add("hasError");
+        //form.pass2.classList.add("hasError");
+        //alert(form.pass2.classList)
         // document.getElementById('pass2').style.backgroundColor="yellow";
         //alert("Error");
         //     document.getElementById('txtdob').style.backgroundColor="yellow";
