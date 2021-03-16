@@ -8,6 +8,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://unpkg.com/vue@next"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Google Books Search</title>
 </head>
 
 <body>
@@ -43,7 +44,7 @@
         <div id="errorDiv"></div>
         <div id="container">
         <button id="mybtn1" type="button" class="btn btn-secondary" v-if="result != null && result.totalItems+index > 0 && index >= 20" v-on:click="PrevsearchGoogleBooks()">Prev</button>
-        <button id="mybtn1" type="button" class="btn btn-primary" v-if="result != null && result.totalItems+index > 0 && result.totalItems - index > 0" v-on:click="NextsearchGoogleBooks()">Next</button>
+        <button id="mybtn2" type="button" class="btn btn-primary" v-if="result != null && result.totalItems+index > 0 && result.totalItems - index > 0" v-on:click="NextsearchGoogleBooks()">Next</button>
     </div>
     </div>
     
