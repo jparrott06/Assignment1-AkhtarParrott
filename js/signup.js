@@ -12,6 +12,22 @@ function ValidateForm(form) {
     var error2 = document.querySelector("#txtpasserror2");
     var valid = true;
 
+    var pass_regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])/;
+    if (pass1.match(pass_regex) && pass2.match(pass_regex)) {
+        console.log(pass1 + "passed regex");
+        //form.pass1.style.backgroundColor="black";
+        valid = true;
+    }
+    else {
+        console.log(pass1 + " did not pass regex")
+        error1.classList.remove("invisible");
+        error1.innerHTML = "Error - password must contain at least one: lower-case letter, upper-case letter, and number."
+        form.pass1.classList.add("hasError");
+        form.pass1.style.backgroundColor='#800000'
+        //form.pass2.style.backgroundColor='#800000'
+
+        valid = false;
+    }
     if (pass1 != pass2) {
         error2.classList.remove("invisible");
         error2.innerHTML = "The passwords do not match.";
@@ -40,22 +56,6 @@ function ValidateForm(form) {
 
     //Validate that password contains at least 1: lower-case letter, capital letter and number//
 
-    var pass_regex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z])/;
-    if (pass1.match(pass_regex)) {
-        console.log(pass1 + "passed regex");
-        //form.pass1.style.backgroundColor="black";
-        valid = true;
-    }
-    else {
-        console.log(pass1 + " did not pass regex")
-        error1.classList.remove("invisible");
-        error1.innerHTML = "Error - password must contain at least one: lower-case letter, upper-case letter, and number."
-        form.pass1.classList.add("hasError");
-        //form.pass1.style.backgroundColor='#800000'
-        //form.pass2.style.backgroundColor='#800000'
-
-        valid = false;
-    }
 
     // Check for invalid input chars //
 
