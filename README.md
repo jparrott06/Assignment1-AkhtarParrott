@@ -1,6 +1,19 @@
 # Assignment1-AkhtarParrott
 ## Repo for Assignment#1 - WebAppDev2021
 
+- ### Table of Contents
+  - [File Structure](./README.md#file-structure)
+  - [Description of Main Pages](./README.md#description-of-main-pages)
+  - [Delegation of Responsibilities](./README.md#delegation-of-responsibilities)
+  - [Project Vision](./README.md#project-vision)
+  - [Technologies Used](./README.md#technologies-used)
+  - [Installation Guide](./README.md#installation-guide)
+  - [Design Choices](./README.md#design-choices)
+  - [Notes and Caveats](./README.md#notes-and-caveats)
+  - [Moving Forward and Lessons Learned](./README.md#moving-forward-and-lessons-learned)
+  - [Extras and Goodies](./README.md#extras-and-goodies)
+
+
 - ### File Structure:
     ```
         Assignment1-AkhtarParrott
