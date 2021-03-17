@@ -24,13 +24,14 @@
         │   └── /[.js files for each html file]
         │   
         ├── favicon.ico [Chirpy icon for page headers]
+        ├── googleBooks.html [Google Books Search API - Assignment2]
         │── header.html [left-sidebar for homepage]
         ├── home.html [homepage for Chirpy webapp with feed in middle]
         ├── right-hand-col.html [right-sidebar for homepage]
         ├── signin.html [signin page for Chirpy]
         ├── signup.html [signup page for Chirpy]
-        ├── verify.html [asks user to verify account after signup]
-        └── table.html ['who to follow' component]
+        ├── table.html ['who to follow' component]
+        └── verify.html [asks user to verify account after signup]
     ```
 - ### Description of main pages:
   <details>
@@ -73,6 +74,12 @@
 
       Signup Page for Chirpy - all requirements met as specified for Assignment#1.
       We did not add the left-navbar for signup.html because that should only be accessed by a logged in user.
+
+      We have also implemented extensive error-handling of user input for fields before the signup form is validated.
+      Changes include:
+      - Passwords must match
+      - Passwords must contain at least one lower-case letter, upper-case letter, and digit
+      - Fields must not contain invalid characters: &,<,>,#,!,`," or ~
   </details>
 
   <details><summary>signin.html</summary>
@@ -86,8 +93,21 @@
       Verify Page for Chirpy - user must verify account after signup with 5-digit code
   </details>
 
+  <details><summary>googleBooks.html</summary>
+
+      Google Books Search API page implemented for Assignment2.
+      Features include:
+      - Fully-functional search of all books Google API provides
+      - Functional reset button which resets query
+      - Pagination of results that are handled by the (Prev)/(Next) buttons
+      - Additional book info such as Pages and Average Review
+      - Hyperlink via button to buy each book on www.amazon.com
+
+  </details>
+
 - ### Delegation of Responsibilities:
   - signup.html was created by Jacob along with styling
+    - Ayesha was responsible for the validate form scripts and additional styling/features of error messages and sign-up options
   - signin.html was created by Ayesha along with styling
   - left sidebar was created and styled by Ayesha
   - feed was created and styled by Jacob
@@ -96,6 +116,8 @@
     - Pair programming to make sure style and sizing was consistent
     - Integrated our components together and in home.html and debugged
     - Brainstorming and adding/removing features
+  - googleBooks.html was created by Jacob as well as the Vue.js features
+    - Ayesha helped implement the .css for this page
 
 - ### Project Vision:
   - We are developing a social media web application modeled on Twitter, called <b><i>Chirpy!</i></b>
@@ -151,3 +173,8 @@
   - Hover over buttons to see color changes and transitions
   - Click on the Searchbox on home.html
   - More to come when we go from static to dynamic scripts!
+  - googleBooks.html
+    - Try out our 'Buy on Amazon' button to search buy a book you found!
+    - See our Average Review and Total Pages fields for each eligible book
+  - signup.html
+    - Now sign-up for Chirpy using your existing Facebook, Instagram, or Gmail account!
