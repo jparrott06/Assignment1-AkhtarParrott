@@ -79,7 +79,8 @@
       Changes include:
       - Passwords must match
       - Passwords must contain at least one lower-case letter, upper-case letter, and digit
-      - Fields must not contain invalid characters: &,<,>,#,!,`," or ~
+      - Input fields (text and email) must not contain invalid characters: &,<,>,#,!,`," or ~
+      - NOTE: We decided it didn't make sense to limit char selection for input fields such as password fields and the Bio field because 1) We encourage our users to make the strongest and most secure passwords possible, 2) We will be sanitizing inputs/outputs to protect ourselves and users against common cybersecurity breaches 3) For the Bio field, we want our users to be able to express themselves with as many obnoxious '!!!'s as they want!(!!!)
   </details>
 
   <details><summary>signin.html</summary>
@@ -100,6 +101,8 @@
       - Fully-functional search of all books Google API provides
       - Functional reset button which resets query
       - Pagination of results that are handled by the (Prev)/(Next) buttons
+      - Authors displays correctly (not as an array)
+      - Null values are not displayed - minimum information needed to display a book is a title
       - Additional book info such as Pages and Average Review
       - Hyperlink via button to buy each book on www.amazon.com
 
@@ -154,7 +157,7 @@
     - the html-checker did not like this but css pathing to image does not display for some reason
   - at first we tried to develop components in a modular fashion as to make code easier to read and follow best practices but had <i>horrible</i> issues with the components not loading/rendering.
     - these files include table, right-hand-col, header:
-      - these are not standalone webpages and are considered componenets - some are not used.
+      - these are not standalone webpages and are considered components - some are not used.
 - ### Moving Forward and Lessons Learned
   - In order to develop in a modular fashion we both want to use a framework like React or Vue where we can create reusable component classes
     - this will avoid a lot of headache, make code more resilient and readable
@@ -175,7 +178,7 @@
   - Click on the Searchbox on home.html
   - More to come when we go from static to dynamic scripts!
   - googleBooks.html
-    - Try out our 'Buy on Amazon' button to search buy a book you found!
-    - See our Average Review and Total Pages fields for each eligible book
+    - Try out our 'Buy on Amazon' button to search Amazon to buy a book you found!
+    - See our Average Review <i>Gold Stars</i> for each eligible book
   - signup.html
     - Now sign-up for Chirpy using your existing Facebook, Instagram, or Gmail account!
