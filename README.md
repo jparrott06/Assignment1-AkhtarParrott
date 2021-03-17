@@ -130,6 +130,7 @@
   - Javascript
     - jquery
   - HTML
+  - Vue.js
 
 - ### Installation Guide:
   - Since these are static webpages there is no extensive installation required
