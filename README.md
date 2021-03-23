@@ -79,8 +79,8 @@
       Changes include:
       - Passwords must match
       - Passwords must contain at least one lower-case letter, upper-case letter, and digit
-      - Input fields (text and email) must not contain invalid characters: &,<,>,#,!,`," or ~
-      - NOTE: We decided it didn't make sense to limit char selection for input fields such as password fields and the Bio field because 1) We encourage our users to make the strongest and most secure passwords possible, 2) We will be sanitizing inputs/outputs to protect ourselves and users against common cybersecurity breaches 3) For the Bio field, we want our users to be able to express themselves with as many obnoxious '!!!'s as they want!(!!!)
+      - Input fields (text and email) must not contain invalid characters: &,<,>,#,`," or ~
+      - NOTE: We decided it didn't make sense to limit char selection for input fields such as password fields and the Bio field because 1) We encourage our users to make the strongest and most secure passwords possible, 2) We will be sanitizing inputs/outputs to protect ourselves and users against common cybersecurity breaches 3) For the Bio field, we want our users to be able to express themselves with as many obnoxious '###'s as they want!(#userexperience)
   </details>
 
   <details><summary>signin.html</summary>
