@@ -79,7 +79,7 @@ function ValidateForm(form) {
                     //console.log(elements[i].type + " contains bad input");
                     //alert('bad!')
                     errorDivlocation.classList.remove("invisible");
-                    errorDivlocation.innerHTML = "This field contains an invalid character: &,<,>,#,!,`,\" or ~";
+                    errorDivlocation.innerHTML = "This field contains an invalid character: &,<,>,#,`,\" or ~";
                     elements[i].classList.add("hasError");
                     elements[i].style.backgroundColor='#800000';
                     valid=false;
